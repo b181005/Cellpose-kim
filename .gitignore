@@ -1,0 +1,25 @@
+@"
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Conda environments
+env/
+.venv/
+venv/
+base/
+Lib/
+Scripts/
+
+# Logs and caches
+*.log
+.cache/
+"@ | Out-File -Encoding UTF8 .gitignore
