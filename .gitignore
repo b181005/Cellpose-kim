@@ -1,25 +1,63 @@
-@"
-# Python
+﻿# Python bytecode
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
 
-# Jupyter
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# VS Code
+# VS Code settings
 .vscode/
 
-# Conda environments
+# Conda and virtual environments
 env/
 .venv/
 venv/
 base/
 Lib/
 Scripts/
+*.conda
+*.env
+
+# Pip logs
+pip-log.txt
+pip-delete-this-directory.txt
 
 # Logs and caches
 *.log
 .cache/
-"@ | Out-File -Encoding UTF8 .gitignore
+*.sqlite3
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Jupyter runtime
+.jupyter/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
