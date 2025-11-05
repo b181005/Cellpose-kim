@@ -1,0 +1,9 @@
+# Example requirements for this project. Edit as needed.
+# Uncomment or add packages you need and then run the installer.
+
+cellpose
+numpy
+scipy
+matplotlib
+opencv-python
+# torch          # uncomment if you need PyTorch; consider CPU vs GPU wheel selection
